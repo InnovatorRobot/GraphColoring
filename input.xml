@@ -1,0 +1,32 @@
+<graph>
+      <nodes>
+            <node name="A"/>
+            <node name="B"/>
+            <node name="C"/>
+            <node name="D"/>
+            <node name="E"/>
+            <node name="F"/>
+            <node name="G"/>
+            <node name="H"/>
+            <node name="I"/>
+            <node name="J"/>
+      </nodes>
+      <edges>
+            <edge src="A" dst="B"/>
+            <edge src="A" dst="E"/>
+            <edge src="A" dst="F"/>
+            <edge src="B" dst="C"/>
+            <edge src="B" dst="G"/>
+            <edge src="C" dst="H"/>
+            <edge src="C" dst="D"/>
+            <edge src="D" dst="E"/>
+            <edge src="D" dst="I"/>
+            <edge src="E" dst="J"/>
+            <edge src="F" dst="H"/>
+            <edge src="F" dst="I"/>
+            <edge src="J" dst="H"/>
+            <edge src="J" dst="G"/>
+            <edge src="I" dst="G"/>
+      </edges>
+</graph>
+

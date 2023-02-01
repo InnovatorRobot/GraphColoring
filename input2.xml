@@ -1,0 +1,30 @@
+<graph>
+      <nodes>
+			<node name="n0"/>
+			<node name="n1"/>
+			<node name="n2"/>
+			<node name="n3"/>
+			<node name="n4"/>
+			<node name="n5"/>
+			<node name="n6"/>
+			<node name="n7"/>
+			<node name="n8"/>
+			<node name="n9"/>
+			<node name="n10"/>
+      </nodes>
+      <edges>
+			<edge src="n0" dst="n2"/>
+			<edge src="n1" dst="n2"/>
+			<edge src="n2" dst="n3"/>
+			<edge src="n3" dst="n5"/>
+			<edge src="n3" dst="n4"/>
+			<edge src="n4" dst="n6"/>
+			<edge src="n6" dst="n5"/>
+			<edge src="n5" dst="n7"/>
+			<edge src="n6" dst="n8"/>
+			<edge src="n8" dst="n7"/>
+			<edge src="n8" dst="n9"/>
+			<edge src="n8" dst="n10"/>
+      </edges>
+</graph>
+
